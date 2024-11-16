@@ -13,8 +13,11 @@
         <p>Scan a QR code to view the manual</p>
 
         <div class="scanner-container">
-            <div id="qr-reader"></div>
+            <div id="qr-reader" style="display: none;"></div>
         </div>
+
+        <button id="start-scan-btn" class="btn btn-primary mt-3">Start QR Code Scan</button>
+        <button id="stop-scan-btn" class="btn btn-danger mt-3" style="display: none;">Stop Scan</button>
 
         <div id="result" class="mt-3">
             <p>Scanned URL will appear here.</p>
